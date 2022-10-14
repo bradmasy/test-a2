@@ -1,0 +1,40 @@
+Old Router code
+
+
+// OutputStream out = socket.getOutputStream();
+
+            // String htmlPage = "<!DOCTYPE html>" +
+            //         "<html><head><title>File Upload Form</title></head>" +
+            //         "<body><h1>Upload file</h1>" +
+            //         "<form method=\"POST\" action=\"upload\" " +
+            //         "enctype=\"multipart/form-data\">" +
+            //         "<input type=\"file\" name=\"fileName\"/><br/><br/>" +
+            //         "Caption: <input type=\"text\" name=\"caption\"<br/><br/>" +
+            //         "<br />" +
+            //         "Date: <input type=\"date\" name=\"date\"<br/><br/>" +
+            //         "<br />" +
+            //         "<input type=\"submit\" value=\"Submit\"/>" +
+            //         "</form>" +
+            //         "</body></html>";
+
+            // // final String CRLF = "\r\n"; // need this line
+
+            // // String response = "HTTP/1.1 200 OK" + CRLF +
+            // //         "Content-Length: " + htmlPage.getBytes().length + CRLF + CRLF
+            // //         + htmlPage + CRLF + CRLF;
+
+            // // out.write(response.getBytes()); // renders the page.
+            // System.out.println(req);
+
+            // res.send(htmlPage);
+
+            // up.doPost(res, req);
+            // OutputStream out = socket.getOutputStream();
+            // out.write(res.createByteArray());
+            // System.out.println("2");
+            // socket.close();
+
+
+            // This code gets the form page on localhost:8999
+
+--------------------------------------------------------------------

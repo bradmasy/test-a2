@@ -1,0 +1,107 @@
+
+       // Scanner a = new Scanner(inputStream);
+
+        // Scanner a = new Scanner(inputStream);
+        // String header = "";
+        // String temp = "";
+
+
+        // String firstLine = a.next();
+        // if (firstLine.contains("GET")) {
+        //     reqType = "GET";
+        //     System.out.println("REQ TYPE: " + reqType);
+        // } else if (firstLine.contains("POST")) {
+        //     reqType = "POST";
+        //     System.out.println("REQ TYPE: " + reqType);
+        // }
+      
+      
+      ---------------------------------------
+      
+      
+        // reqType = a.next();
+        // System.out.println("REQ TYPE: " + reqType);
+
+
+
+        // boolean userAgentFound = (reqUserAgent.equals("browser") || reqUserAgent.equals("cli"));
+        // try {
+        //     // while((temp = a.nextLine()) != null && temp.toString() !="\n" &&
+        //     //  && !temp.equals("\n") && !temp.equals("\r\n")
+        //     // && !temp.equals("\n\n")) {
+        //     // temp.toString() != "\r\n") {
+        //     while (reqUserAgent.equals("") && (temp = a.nextLine()) != null) {
+                    
+        //         System.out.println("PRINT: " + temp);
+
+        //         if (temp.startsWith("User-Agent")) {
+        //             reqUserAgent = "browser";
+        //             System.out.println("***User agent found: " + reqUserAgent);
+        //         } 
+        //         // else {
+        //         //     reqUserAgent = "cli";
+        //         // }
+
+        //     }
+
+        //     if (reqUserAgent.equals("")) {
+        //         reqUserAgent = "cli";
+        //     }
+        // } catch (Exception e) {
+        //     System.out.println(e);
+        // }
+
+
+------------------------------------------------
+
+        
+        // while(a.hasNext() != false){
+        // temp = a.nextLine();
+        // // System.out.println(temp);
+        // header += temp;
+        // header += "\n";
+        // }
+
+
+
+        -------------------------------------------
+
+            // private static String convertInputStreamToString(InputStream inputStream)
+    // throws IOException {
+    // return new String(inputStream.readAllBytes(), StandardCharsets.UTF_8);
+    // }
+
+
+    ---------------------------------------------
+
+    PARSE STRING WITH SPLIT:
+
+        // String userAgentLine = temp; 
+                    // String[] userAgentStr = userAgentLine.split(" ", 2); 
+
+                    // System.out.println("FOR LOOP:");
+                    // for (int j = 0; j < userAgentStr.length; j++) {
+                    //     System.out.println(j + ": " + userAgentStr[j]); 
+                    // }
+
+
+-----------------------------------------------
+UNNEEDED PRINT LINES:
+
+        // System.out.println(header);
+        System.out.println("END OF HEADER");
+
+        System.out.println("input stream:" + inStream.toString());
+
+
+-----------------------------------------
+
+    String userAgentLine = temp; 
+            String[] userAgentStr = userAgentLine.split(";", 2); 
+            // djfsbgksijgfsjb sdf a483t  ; sgrjgns;srgr ;srs
+
+            // map.put("Date", ...)
+            System.out.println("FOR LOOP:");
+            for (int j = 0; j < userAgentStr.length; j++) {
+                System.out.println(j + ": " + userAgentStr[j]); 
+            }
